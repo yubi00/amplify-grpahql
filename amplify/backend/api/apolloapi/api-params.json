@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/graphql",
+      "lambdaFunction": "apolloserver",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/graphql"
+    }
+  ],
+  "resourceName": "apolloapi",
+  "apiName": "apolloapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "apolloserver"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-amplifygraphql-dev-01409-authRole",
+    "unAuthRoleName": "amplify-amplifygraphql-dev-01409-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "apolloserver",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifygraphql-dev-01409-authRole",
+      "UnauthRoleArn": "arn:aws:iam::688813079787:role/amplify-amplifygraphql-dev-01409-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::688813079787:role/amplify-amplifygraphql-dev-01409-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-amplifygraphql-dev-01409-deployment",
+      "UnauthRoleName": "amplify-amplifygraphql-dev-01409-unauthRole",
+      "StackName": "amplify-amplifygraphql-dev-01409",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:688813079787:stack/amplify-amplifygraphql-dev-01409/0d152fd0-0bf8-11ec-a557-064778869202",
+      "AmplifyAppId": "d2t7yhk0mkew0b"
+    },
+    "categories": {
+      "function": {
+        "apolloserver": {
+          "deploymentBucketName": "amplify-amplifygraphql-dev-01409-deployment",
+          "s3Key": "amplify-builds/apolloserver-4873476a615243376576-build.zip"
+        }
+      }
+    }
+  }
+}
